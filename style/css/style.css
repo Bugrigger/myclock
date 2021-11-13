@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Conv_DigitalNumbers-Regular";
-  src: url("/../fonts/DigitalNumbers-Regular.eot");
-  src: local("☺"), url("/../fonts/DigitalNumbers-Regular.woff") format("woff"), url("/../fonts/DigitalNumbers-Regular.ttf") format("truetype"), url("/../fonts/DigitalNumbers-Regular.svg") format("svg");
+  src: url("/../../fonts/DigitalNumbers-Regular.eot");
+  src: local("☺"), url("/../../fonts/DigitalNumbers-Regular.woff") format("woff"), url("/../../fonts/DigitalNumbers-Regular.ttf") format("truetype"), url("/../../fonts/DigitalNumbers-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
