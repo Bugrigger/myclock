@@ -26,6 +26,7 @@ function setTime(selector) {
     hours = clock.querySelector('.hours');
     minuts = clock.querySelector('.minutes');
     seconds = clock.querySelector('.seconds');
+    title = document.querySelector('title');
 
     const clockInterval = setInterval(updateClock, 1000);
     updateClock();
@@ -38,6 +39,7 @@ function setTime(selector) {
         hours.textContent = getZero(GTMHours);
         minuts.textContent = getZero(t.minuts);
         seconds.textContent = getZero(t.seconds);
+        title.innerHTML = `${getZero(GTMHours)} ч ${getZero(t.minuts)} мин ${getZero(t.seconds)} сек`;
     }
 }
 
