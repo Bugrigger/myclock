@@ -41,3 +41,33 @@ body {
 .clock__item:first-child {
   margin-left: 0;
 }
+
+@media (max-width: 426px) {
+  .wrapper {
+    width: 330px;
+    margin: 0 auto;
+    padding: 0 25px 0 25px;
+  }
+  .clock__item {
+    width: 80px;
+    height: 80px;
+    background: #dfdfdf;
+    -webkit-box-shadow: 4px 4px 8px rgba(167, 167, 167, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.664);
+    box-shadow: 4px 4px 8px rgba(167, 167, 167, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.664);
+    border-radius: 13px;
+    margin-left: 21px;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #43424a;
+  }
+  .clock__item:first-child {
+    margin-left: 0;
+  }
+  .clock__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50%;
+  }
+}
