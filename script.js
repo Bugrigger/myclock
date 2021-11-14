@@ -1,9 +1,9 @@
 function getTime() {
     const nowTime = Date.parse(new Date());
 
-    const hours = Math.floor((nowTime / (1000 * 60 * 60) % 24)),
-        minuts = Math.floor((nowTime / 1000 / 60) % 60),
-        seconds = Math.floor((nowTime / 1000) % 60);
+    const hours = nowTime.getHours(),
+        minuts = nowTime.getMinutes(),
+        seconds = nowTime.getSeconds();
 
     return {
         hours,
