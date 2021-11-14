@@ -35,8 +35,7 @@ function setTime(selector) {
     function updateClock() {
         const t = getTime();
 
-        let GTMHours = t.hours + 7;
-        hours.textContent = getZero(GTMHours);
+        hours.textContent = getZero(t.hours);
         minuts.textContent = getZero(t.minuts);
         seconds.textContent = getZero(t.seconds);
         title.innerHTML = `${getZero(GTMHours)} ч ${getZero(t.minuts)} мин ${getZero(t.seconds)} сек`;
