@@ -1,7 +1,7 @@
 function getTime() {
    const nowTime = new Date();
 
-    const hours = nowTime.getHours(),
+    let hours = nowTime.getHours(),
         minuts = nowTime.getMinutes(),
         seconds = nowTime.getSeconds();
 
